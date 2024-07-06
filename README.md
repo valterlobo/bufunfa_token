@@ -32,10 +32,8 @@ forge build
 ### 4. Executar o script de "Deploy" do contrato
 
 ```shell
-forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+forge script script/ERC20.s.sol:DeployToken   --fork-url $RPC_URL  --broadcast 
 ```
-
-forge script script/DeployToken.s.sol:NFTDeployScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 
 ### 5. Obter o endereço do contrato e pesquisar na ..scan
 
