@@ -35,7 +35,12 @@ forge build
 forge script script/ERC20.s.sol:DeployToken   --fork-url $RPC_URL  --broadcast 
 ```
 
-### 5. Obter o endereço do contrato e pesquisar na ..scan
+### 5. Endereço do contrato na tesnet BSC 
+
+Número do contrato: 0x9FbEF84395238aeA5739b60C6F2BA5FbE7648c80
+
+BscScan: [https://testnet.bscscan.com/token/0x9FbEF84395238aeA5739b60C6F2BA5FbE7648c80]
+
 
 ## Interação com o Contrato
 
